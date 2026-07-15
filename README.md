@@ -100,7 +100,7 @@ lib/
 
 📺 Demo Video:
 
-*(Add your YouTube link here)*
+https://youtu.be/cq3739W5RkI?si=OXA3LURSsZhz0Wev
 
 ---
 
