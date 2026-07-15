@@ -1,0 +1,43 @@
+name: gem_scan
+description: "GemScan: Zero-Cloud On-Device Mobile AI Clinical Companion"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # On-Device AI Engine Core
+  flutter_gemma: ^1.2.2
+  flutter_gemma_litertlm: ^1.0.4
+
+ 
+
+  # Computer Vision & Offline OCR Pipeline
+  google_mlkit_text_recognition: ^0.15.1
+  camera: ^0.11.0
+
+  # State Management & Token Stream Processing
+  flutter_bloc: ^8.1.3
+
+  # Hardware Automation & Offline Notification Scheduler
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.4
+
+  # Hardware Utility & Runtime Permission Gatekeepers
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

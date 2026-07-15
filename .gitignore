@@ -1,0 +1,35 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+android/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+
+# Generated
+*.log
+*.tmp
+*.lock
+
+# Model Files
+assets/models/
+*.task
+*.tflite
+*.litertlm
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
